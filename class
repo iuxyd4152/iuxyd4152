@@ -1,0 +1,7 @@
+public class SampleUserImpl implements User 
+{ 
+ 
+    private Hashtable fInfo; 
+ 
+    public SampleUserImpl() { 
+ 
