@@ -1,0 +1,4 @@
+XmlRpcClientLite client = new XmlRpcClientLite(url); 
+ 
+// Retrieve the ApiContext Hashtable from the HttpSession 
+Hashtable apiContext = (Hashtable) session.getAttribute("API_CONTEXT"); 
