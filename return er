@@ -1,0 +1,7 @@
+        status := job.LastStatus()
+        if err := status.Err(); err != nil {
+                return err
+        }
+        fmt.Fprintf(w, "This query will process %d bytes\n", status.Statistics.TotalBytesProcessed)
+        return nil
+}
