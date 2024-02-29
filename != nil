@@ -1,0 +1,5 @@
+     job, err := q.Run(ctx)
+        if err != nil {
+                return err
+        }
+        // Dry run is not asynchronous, so get the la
