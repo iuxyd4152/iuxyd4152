@@ -1,0 +1,7 @@
+        matches, score = compare_faces(known_face_encodings, face_encoding,Threshold)
+        retname, retscore = "Unknow", 0
+        if True in matches:
+            first_match_index = matches.index(True)
+            name = known_face_names[first_match_index]
+            if score > retscore:
+                retname = name
