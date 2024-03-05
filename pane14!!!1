@@ -1,0 +1,6 @@
+    private PanelShow messgePanel;
+    private myPanel p;
+    private Tank myTank;
+    public static final int AREA_WIDTH = 830;
+    public static final int AREA_HEIGHT = 800;
+    private ArrayList<Missle> missles = new ArrayList<Missle>();
