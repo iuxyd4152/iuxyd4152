@@ -1,0 +1,13 @@
+        soundIds[Const.voiceNo] = mSoundPool.load(mContext, R.raw.no, 1);
+        soundIds[Const.voiceNextlevel] = mSoundPool.load(mContext,
+                R.raw.nextlevel, 1);
+        soundIds[Const.voiceGameover] = mSoundPool.load(mContext,
+                R.raw.gameover, 1);
+ 
+        adMethod();
+    private void adMethod() {
+        MUtils.getInstance(mContext);
+        MUtils.showRight();
+        MUtils.getInstance(mContext);
+        MUtils.showBtoom();
+    }
