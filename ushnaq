@@ -1,0 +1,4 @@
+if %n% lss 40 goto lp
+set /a x+=1,w+=1
+if %x% equ 40 call :lop
+cls&for /l %%i in (%m%,-1,%v%) do echo.!str%%i!
