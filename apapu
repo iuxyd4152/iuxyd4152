@@ -1,0 +1,4 @@
+            request.setText(text);
+
+            client.execute(request);
+        } catch (ApiException e) {
